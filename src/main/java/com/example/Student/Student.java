@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Student {
     @GetMapping ("/api")
-    public  String getString() {
-
+    public  String getString() { return
+"sfsfsfs";
     }
 }
